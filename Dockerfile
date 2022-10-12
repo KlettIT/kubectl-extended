@@ -5,5 +5,4 @@ RUN apt-get update && \
     curl \
     ssh \
     jq && \
-    apt-get clean && \
-    rm -rf /var/lib/{apt,dpkg,cache,log}/
+    apt-get clean

@@ -4,5 +4,4 @@ RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" apt-get install --yes \
     curl \
     ssh \
-    jq && \
-    apt-get clean
+    jq
